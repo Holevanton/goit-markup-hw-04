@@ -83,6 +83,7 @@ img{
 }
 .page-address{
     font-style: normal;
+    margin-left: auto;
 }
 .menu-contact-list{
     display: flex;
@@ -125,8 +126,6 @@ img{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-    padding-top: 188px;
-    padding-bottom: 292px;
 }
 .one-button{
     background-color: #4D5AE5;
