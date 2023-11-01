@@ -36,6 +36,7 @@ img{
     border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header{
     display: flex;
@@ -72,9 +73,13 @@ img{
 .box::before,
 .box::after{
     content:"";
-    width: 100px;
-    height: 2px;
-    background-color:aquamarine;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+
 }
 .menu-link {
     font-weight: 500;
@@ -83,6 +88,11 @@ img{
     letter-spacing: 0.02em;
     color:#2e2f42; 
     padding: 24px 0;
+ 
+}
+.menu-header{
+    position: relative; 
+    color: #404bbf;
 }
 .menu-link:hover,
 .menu-link:focus{
@@ -266,9 +276,4 @@ img{
     color:#F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-}
-.footer{
-    display: flex;
-    align-items: baseline;
-
 }
