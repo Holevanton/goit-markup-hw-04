@@ -223,8 +223,15 @@ img{
 }
 .menu-team-list{
     display: flex;
-    gap: 24px;  
+    gap: 24px;   
 }
+.menu-team-list:hover{
+    box-shadow:0px 1px 6px
+     rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px
+     rgba(46, 47, 66, 0.08); 
+    
+    }
+
 .team-container-item{
     padding: 32px 0;
 }
@@ -311,6 +318,18 @@ img{
     background-color:#2E2F42 ;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.footer-icons{
+    display: flex;
+}
+.social-media-text{
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 16px;
 }
 .menu-footer-logotype{
     font-family: "Raleway", sans-serif;
