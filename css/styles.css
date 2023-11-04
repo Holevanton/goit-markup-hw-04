@@ -278,6 +278,7 @@ img{
 .icons-logo{
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 .icons-style{
@@ -295,7 +296,7 @@ img{
 }
 .icons-name{
     fill: #f4f4fd;
-    
+
 }
 .portfolio{
     flex-wrap: wrap;
