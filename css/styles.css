@@ -280,7 +280,7 @@ img{
     color:#434455;
     
 }
-.icons-team{
+.icons-social{
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -350,7 +350,6 @@ img{
     margin-right: 120px;
 }
 .social-media-text{
-    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -377,4 +376,11 @@ img{
     color:#F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+.footer-icons{
+    gap: 16px;
+}
+.icons-social-footer{
+    display: flex;
+
 }
