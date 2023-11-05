@@ -53,10 +53,7 @@ img{
     display: flex;
     align-items: center;
 }
-.menu-list{
-    display: flex;
-    gap: 40px;
-}
+
 .web-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -70,6 +67,10 @@ img{
 .studio {
     color:#2e2f42;
 } 
+.menu-list{
+    display: flex;
+    gap: 40px;
+}
 .menu-header::after{
     content:"";
     position: absolute;
@@ -95,7 +96,9 @@ img{
     letter-spacing: 0.02em;
     color:#2e2f42; 
     padding: 24px 0;
- 
+}
+.menu-item{
+    color: #404bbf; 
 }
 
 .menu-link:hover,
@@ -118,6 +121,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-contact-list-list:hover, 
 .menu-contact-list-list:focus{
