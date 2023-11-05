@@ -345,8 +345,9 @@ img{
 .footer{
     display: flex;
     align-items: baseline;
-    
-
+}
+.container-footer-text{
+    margin-right: 120px;
 }
 .social-media-text{
     display: flex;
