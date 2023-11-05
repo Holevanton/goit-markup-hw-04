@@ -300,14 +300,20 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
-.icons-style:hover,
-.icons-style:focus{
+.style-footer:hover,
+.style-footer:focus{
     background-color: #31d0aa;
 }
 .icons-name{
     fill: #f4f4fd;
 
+}
+.icons-team{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 .portfolio{
     flex-wrap: wrap;
