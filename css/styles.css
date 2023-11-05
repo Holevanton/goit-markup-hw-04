@@ -280,7 +280,7 @@ img{
     color:#434455;
     
 }
-.icons-social{
+.icons-team{
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -291,6 +291,10 @@ img{
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
+}
+.icons-style:hover,
+.icons-style:focus{
+    background-color: #404bbf;
 }
 .icons-style{
     width: 100%;
@@ -310,11 +314,7 @@ img{
     fill: #f4f4fd;
 
 }
-.icons-team{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
+
 .portfolio{
     flex-wrap: wrap;
     row-gap: 48px;
