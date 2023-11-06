@@ -259,40 +259,38 @@ header .container{
     padding: 120px 0;
     background-color: #F4F4FD;
 }
-
-.menu-portfolio{
-    padding: 120px 0;
-}
 .menu-pictures-text{
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 72px;
 }
+.menu-portfolio{
+    padding: 120px 0;
+}
 .menu-team-list{
     display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 .menu-team-item:hover .text-portfolio{
     transform: translateY(0%);
 }
-.menu-team-item:not(:last-child) {
-    margin-right: 24px;
-}
 .menu-team-item{
+    
     text-align: center;
     align-items: center;
     width: calc((100%-72px)/4 );
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #fff);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px 0px rgba(4, 5, 36, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-container-item{
     padding: 32px 0;
 }
 .item{
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
     border-top: none;
 }
 
@@ -310,7 +308,6 @@ header .container{
     color: #2e2f42; 
 }
 .menu-team-text{
-    text-align: center;
     font-size: 16px;
 }
 .icons-team{
