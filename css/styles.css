@@ -383,7 +383,6 @@ header .container{
     display: flex;
     align-items: baseline;
     width: 1440px;
-    justify-content: center;
 }
 .container-footer-text{
     margin-right: 120px;
