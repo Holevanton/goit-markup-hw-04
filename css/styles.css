@@ -227,12 +227,12 @@ img{
     display: flex;
     gap: 24px;   
 }
-.menu-team-list:hover{
+.menu-team-item:hover{
+    transform: translateY(0%);
     box-shadow:0px 1px 6px
      rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px
-     rgba(46, 47, 66, 0.08); 
-    
-    }
+     rgba(46, 47, 66, 0.08);   
+}
 
 .team-container-item{
     padding: 32px 0;
@@ -243,7 +243,6 @@ img{
     border-top: none;
 }
 .menu-team-item{
-
     background-color: #FFFFFF;
     justify-content: center;
     background: var(--WHITE, #FFF);
@@ -380,6 +379,8 @@ img{
 .icons-social-footer{
     display: flex;
     gap: 16px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.footer-icons{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
