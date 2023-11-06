@@ -1,13 +1,18 @@
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
 }
 ul{
     list-style-type: none;
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 .button{
     cursor: pointer;
@@ -15,6 +20,9 @@ a {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p{
     margin-top: 0;
     margin-bottom: 0;
@@ -24,6 +32,15 @@ ol{
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    list-style-type: none;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 img{
     display: block;
@@ -33,6 +50,9 @@ img{
 .section{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.studio{
+    color: #2e2f42;
 }
 .page-header{
     border-bottom: 1px solid #e7e9fc;
@@ -57,6 +77,10 @@ img{
 .page-navigator{
     display: flex;
     align-items: center;
+}
+.web-logo:hover,
+.web-logo:active{
+    color: #404BBF;
 }
 .web-logo{
     color: #404BBF;
@@ -116,6 +140,13 @@ img{
 .menu-link:hover,
 .menu-link:focus{
     color: #404bbf;
+}
+.page-address{
+    font-style: normal;
+}
+.page-address:hover,
+.page-address:active{
+    color: #404BBF;
 }
 .page-address{
     align-items: center;
