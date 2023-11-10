@@ -96,9 +96,6 @@ img{
     margin-right: 76px;
 
 }
-.studio {
-    color:#2e2f42;
-} 
 .menu-list{
     display: flex;
     align-items: center;
@@ -115,7 +112,7 @@ img{
     background-color: #404bbf;
     border-radius: 2px;
 }
-.menu-link{
+.menu-header{
     color: #404bbf;
 }
 .menu-header:hover,
@@ -138,10 +135,7 @@ img{
 .menu-item:not(:last-child) {
     margin-right: 40px;
 }
-.menu-link:hover,
-.menu-link:focus{
-    color: #404bbf;
-}
+
 .page-address{
     font-style: normal;
 }
