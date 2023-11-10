@@ -115,7 +115,7 @@ img{
     background-color: #404bbf;
     border-radius: 2px;
 }
-.menu-header{
+.menu-link{
     color: #404bbf;
 }
 .menu-header:hover,
@@ -129,6 +129,7 @@ img{
     font-size: 16px;
     color:#2e2f42; 
     padding: 24px 0;
+   
 }
 .menu-item > a:focus, 
 .menu-item > a:hover{
